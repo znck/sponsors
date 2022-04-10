@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "packageManager": "pnpm@6.2.5",
+  "dependencies": {
+    "sponsorkit": "^0.3.1"
+  },
+  "scripts": {
+    "build": "sponsorkit -o ."
+  }
+}
