@@ -1,6 +1,9 @@
 name: Maintenance
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
